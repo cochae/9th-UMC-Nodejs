@@ -108,7 +108,7 @@ SQL은 Structured Query Language의 약자로 관계형 데이터베이스를 �
     장단점을 잘 비교해 보고, 본인의 상황에 맞는 도구를 고르시면 됩니다.  
     
 
-![SQL이 쓰이는 관계형 데이터베이스 구조](image.png)
+![SQL이 쓰이는 관계형 데이터베이스 구조](Chapter%201%20Database%20%EC%84%A4%EA%B3%84%20271b57f4596b80dbb4a9ce9aa330df7b/image.png)
 
 SQL이 쓰이는 관계형 데이터베이스 구조
 
@@ -120,11 +120,11 @@ NoSQL 쪽의  데이터베이스는 key-value, document, graph 등 다양한 데
 
 주요 NoSQL 쪽의 데이터베이스 시스템으로는 MongoDB, Redis, neo4j, DynamoDB 등이 존재합니다.
 
-![key-value 구조](key-value.png)
+![key-value 구조](Chapter%201%20Database%20%EC%84%A4%EA%B3%84%20271b57f4596b80dbb4a9ce9aa330df7b/key-value.png)
 
 key-value 구조
 
-![NoSQL 중 가장 많이 쓰이는 Document 구조 (MongoDB)](%25EC%25BA%25A1%25EC%25B2%2598.png)
+![NoSQL 중 가장 많이 쓰이는 Document 구조 (MongoDB)](Chapter%201%20Database%20%EC%84%A4%EA%B3%84%20271b57f4596b80dbb4a9ce9aa330df7b/%25EC%25BA%25A1%25EC%25B2%2598.png)
 
 NoSQL 중 가장 많이 쓰이는 Document 구조 (MongoDB)
 
@@ -149,7 +149,7 @@ SQL과 NoSQL은 서로 다른 장단점을 가지며, 프로젝트의 요구 사
 
 </aside>
 
-[ Chapter 1. Database 설계- 데이터베이스 기초](Chapter%201%20Database%20%EC%84%A4%EA%B3%84-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EA%B8%B0%EC%B4%88%20271b57f4596b81e695dcfaf0be613478.md)
+[ Chapter 1. Database 설계- 데이터베이스 기초](Chapter%201%20Database%20%EC%84%A4%EA%B3%84%20271b57f4596b80dbb4a9ce9aa330df7b/Chapter%201%20Database%20%EC%84%A4%EA%B3%84-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EA%B8%B0%EC%B4%88%20271b57f4596b81e695dcfaf0be613478.md)
 
 ### 💾 로컬 DB 세팅하기
 
@@ -160,7 +160,7 @@ SQL과 NoSQL은 서로 다른 장단점을 가지며, 프로젝트의 요구 사
 
 </aside>
 
-[Chapter 1. Database 설계- 로컬 DB 세팅하기](Chapter%201%20Database%20%EC%84%A4%EA%B3%84-%20%EB%A1%9C%EC%BB%AC%20DB%20%EC%84%B8%ED%8C%85%ED%95%98%EA%B8%B0%20271b57f4596b81a7a892ea59d93c4ad2.md)
+[Chapter 1. Database 설계- 로컬 DB 세팅하기](Chapter%201%20Database%20%EC%84%A4%EA%B3%84%20271b57f4596b80dbb4a9ce9aa330df7b/Chapter%201%20Database%20%EC%84%A4%EA%B3%84-%20%EB%A1%9C%EC%BB%AC%20DB%20%EC%84%B8%ED%8C%85%ED%95%98%EA%B8%B0%20271b57f4596b81a7a892ea59d93c4ad2.md)
 
 # 🎯 핵심 키워드
 
@@ -305,9 +305,9 @@ SQL과 NoSQL은 서로 다른 장단점을 가지며, 프로젝트의 요구 사
 
 ---
 
-![workbook01.png](workbook01.png)
+![workbook01.png](Chapter%201%20Database%20%EC%84%A4%EA%B3%84%20271b57f4596b80dbb4a9ce9aa330df7b/workbook01.png)
 
-![image.png](image%201.png)
+![image.png](Chapter%201%20Database%20%EC%84%A4%EA%B3%84%20271b57f4596b80dbb4a9ce9aa330df7b/image%201.png)
 
 ## 🔥 미션
 
@@ -328,16 +328,16 @@ SQL과 NoSQL은 서로 다른 장단점을 가지며, 프로젝트의 요구 사
         아래 사진 외에도 첨부드린 사진에 해당하는 피그마 파일이 존재하니
         사진을 통해 보기 어려우시다면 피그마 파일을 이용해주세요!
         
-        ![IA](for_UMC.png)
+        ![IA](Chapter%201%20Database%20%EC%84%A4%EA%B3%84%20271b57f4596b80dbb4a9ce9aa330df7b/for_UMC.png)
         
         IA
         
-        ![WF](for_UMC%201.png)
+        ![WF](Chapter%201%20Database%20%EC%84%A4%EA%B3%84%20271b57f4596b80dbb4a9ce9aa330df7b/for_UMC%201.png)
         
         WF
         
     
-    [for_UMC.fig](for_UMC.fig)
+    [for_UMC.fig](Chapter%201%20Database%20%EC%84%A4%EA%B3%84%20271b57f4596b80dbb4a9ce9aa330df7b/for_UMC.fig)
     
 1. 주어진 IA(기획 플로우)와 와이어 프레임(디자인 프로토타입)을 보고 직접 데이터베이스를 설계해오기, 위에서 언급한 경우를 다 적용해서 할 것
 2. 이름 글자 수 등 세부적인 부분은 원하는 대로 해도 됨!
@@ -356,7 +356,7 @@ SQL과 NoSQL은 서로 다른 장단점을 가지며, 프로젝트의 요구 사
 
 **< 시니어 미션 >**
 
-[시니어 미션](%EC%8B%9C%EB%8B%88%EC%96%B4%20%EB%AF%B8%EC%85%98%20271b57f4596b81a19287cd532e2f968e.md)
+[시니어 미션](Chapter%201%20Database%20%EC%84%A4%EA%B3%84%20271b57f4596b80dbb4a9ce9aa330df7b/%EC%8B%9C%EB%8B%88%EC%96%B4%20%EB%AF%B8%EC%85%98%20271b57f4596b81a19287cd532e2f968e.md)
 
 ## 💪 미션 기록
 
@@ -371,7 +371,7 @@ SQL과 NoSQL은 서로 다른 장단점을 가지며, 프로젝트의 요구 사
 
 - **미션 기록**
     
-    [유채원 / 워크북 week01 - ERD설계](%EC%9C%A0%EC%B1%84%EC%9B%90%20%EC%9B%8C%ED%81%AC%EB%B6%81%20week01%20-%20ERD%EC%84%A4%EA%B3%84%20271b57f4596b81a19a8df8b3c9e8e900.md)
+    [유채원 / 워크북 week01 - ERD설계](Chapter%201%20Database%20%EC%84%A4%EA%B3%84%20271b57f4596b80dbb4a9ce9aa330df7b/%EC%9C%A0%EC%B1%84%EC%9B%90%20%EC%9B%8C%ED%81%AC%EB%B6%81%20week01%20-%20ERD%EC%84%A4%EA%B3%84%20271b57f4596b81a19a8df8b3c9e8e900.md)
     
 
 ## ⚡ 트러블 슈팅
@@ -425,7 +425,7 @@ SQL과 NoSQL은 서로 다른 장단점을 가지며, 프로젝트의 요구 사
 
 ## 🤔 참고 자료
 
-[1주차](1%EC%A3%BC%EC%B0%A8%20271b57f4596b8150a7cace52e3d72127.csv)
+[1주차](Chapter%201%20Database%20%EC%84%A4%EA%B3%84%20271b57f4596b80dbb4a9ce9aa330df7b/1%EC%A3%BC%EC%B0%A8%20271b57f4596b8150a7cace52e3d72127.csv)
 
 ---
 

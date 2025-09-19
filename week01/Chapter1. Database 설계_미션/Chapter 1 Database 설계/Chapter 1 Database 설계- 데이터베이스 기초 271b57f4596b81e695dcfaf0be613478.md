@@ -96,7 +96,7 @@ ERD는 세세한 내용은 언제든지 바뀔 수 있기에 **처음부터 완�
     
     우선 저렇게 간단히 구상을 했다고 해봅시다.
     
-    ![image.png](image%202.png)
+    ![image.png](Chapter%201%20Database%20%EC%84%A4%EA%B3%84-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EA%B8%B0%EC%B4%88%20271b57f4596b81e695dcfaf0be613478/image.png)
     
     1. 먼저, **테이블 이름과 칼럼 이름은 모두 소문자**,
     그리고 **단어 구분은 대소문자가 아닌, 밑줄로 구분**을 해주는 것이 좋습니다.
@@ -108,7 +108,7 @@ ERD는 세세한 내용은 언제든지 바뀔 수 있기에 **처음부터 완�
     
     이제 그러면 아래처럼 되겠죠
     
-    ![image.png](image%203.png)
+    ![image.png](Chapter%201%20Database%20%EC%84%A4%EA%B3%84-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EA%B8%B0%EC%B4%88%20271b57f4596b81e695dcfaf0be613478/image%201.png)
     
     자 이제 각각 타입을 뭐로 해야 할까요?
     
@@ -124,7 +124,7 @@ ERD는 세세한 내용은 언제든지 바뀔 수 있기에 **처음부터 완�
     
     </aside>
     
-    ![image.png](image%204.png)
+    ![image.png](Chapter%201%20Database%20%EC%84%A4%EA%B3%84-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EA%B8%B0%EC%B4%88%20271b57f4596b81e695dcfaf0be613478/image%202.png)
     
     저는 타입을 일단 위와 같이 하겠습니다.
     
@@ -141,7 +141,7 @@ ERD는 세세한 내용은 언제든지 바뀔 수 있기에 **처음부터 완�
     
     이제 위의 세 테이블을 더 꼼꼼하게 설계 해봅시다.
     
-    ![image.png](image%205.png)
+    ![image.png](Chapter%201%20Database%20%EC%84%A4%EA%B3%84-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EA%B8%B0%EC%B4%88%20271b57f4596b81e695dcfaf0be613478/image%203.png)
     
     위 처럼 created_at, 그리고 updated_at을 테이블마다 추가해주는 것이 좋고
     
@@ -159,7 +159,7 @@ ERD는 세세한 내용은 언제든지 바뀔 수 있기에 **처음부터 완�
     
     참고로 MySQL 기준 6자리가 최대입니다.
     
-    ![image.png](image%206.png)
+    ![image.png](Chapter%201%20Database%20%EC%84%A4%EA%B3%84-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EA%B8%B0%EC%B4%88%20271b57f4596b81e695dcfaf0be613478/image%204.png)
     
     member 테이블은 그리고 위처럼 status와 inactive_date를 두는 것이 좋습니다.
     
@@ -269,7 +269,7 @@ ERD는 세세한 내용은 언제든지 바뀔 수 있기에 **처음부터 완�
     
     **N : M 관계**일 때는 **가운데에 매핑 테이블을 따로 둬야 합니다.**
     
-    ![image.png](image%207.png)
+    ![image.png](Chapter%201%20Database%20%EC%84%A4%EA%B3%84-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EA%B8%B0%EC%B4%88%20271b57f4596b81e695dcfaf0be613478/image%205.png)
     
     가운데 매핑 테이블은 양쪽의 기본 키를 외래 키로 가지고,
     각각과 1 : N 관계를 가집니다.
@@ -301,7 +301,7 @@ ERD는 세세한 내용은 언제든지 바뀔 수 있기에 **처음부터 완�
     
     따라서 아래와 같이 설계가 가능합니다.
     
-    ![image.png](image%208.png)
+    ![image.png](Chapter%201%20Database%20%EC%84%A4%EA%B3%84-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EA%B8%B0%EC%B4%88%20271b57f4596b81e695dcfaf0be613478/image%206.png)
     
     ### 🤔 알림의 경우는 어떻게 설계할까요?
     
@@ -325,7 +325,7 @@ ERD는 세세한 내용은 언제든지 바뀔 수 있기에 **처음부터 완�
         
         이런 모양으로 설계를 할 수 있습니다.
         
-        ![1. 슈퍼 타입과 서브 타입의 구성](image%209.png)
+        ![1. 슈퍼 타입과 서브 타입의 구성](Chapter%201%20Database%20%EC%84%A4%EA%B3%84-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EA%B8%B0%EC%B4%88%20271b57f4596b81e695dcfaf0be613478/image%207.png)
         
         1. 슈퍼 타입과 서브 타입의 구성
         
@@ -335,13 +335,13 @@ ERD는 세세한 내용은 언제든지 바뀔 수 있기에 **처음부터 완�
         
         이 때 dtype을 테이블로 따로 관리를 하거나 enum으로 관리하는 것은 **선택**하시면 됩니다.
         
-        ![2. 하나의 테이블에 두고 dtype으로 구분 ](image%2010.png)
+        ![2. 하나의 테이블에 두고 dtype으로 구분 ](Chapter%201%20Database%20%EC%84%A4%EA%B3%84-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EA%B8%B0%EC%B4%88%20271b57f4596b81e695dcfaf0be613478/image%208.png)
         
         2. 하나의 테이블에 두고 dtype으로 구분 
         
     3. **그냥 테이블 다 나누기**
         
-        ![3. 그냥 테이블 다 나누기 ](image%2011.png)
+        ![3. 그냥 테이블 다 나누기 ](Chapter%201%20Database%20%EC%84%A4%EA%B3%84-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EA%B8%B0%EC%B4%88%20271b57f4596b81e695dcfaf0be613478/image%209.png)
         
         3. 그냥 테이블 다 나누기 
         
