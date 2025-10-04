@@ -1,2 +1,0 @@
-﻿이름,API Path,선택
-"회원가입 ",/api/v1/users/signup,POST
